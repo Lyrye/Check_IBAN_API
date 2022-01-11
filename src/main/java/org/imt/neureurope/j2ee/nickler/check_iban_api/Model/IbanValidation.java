@@ -15,12 +15,12 @@ public class IbanValidation {
 
     public void setIBAN(String IBAN) {
         this.IBAN = IBAN;
-        isValid(IBAN);
+        isValid();
     }
 
-    private void isValid(String IBAN) {
+    private void isValid() {
         try{
-            IbanUtil.validate(IBAN);
+            IbanUtil.validate(this.IBAN);
             isValid = true;
 
         } catch (Throwable t){
