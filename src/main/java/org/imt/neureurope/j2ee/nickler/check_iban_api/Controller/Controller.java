@@ -25,10 +25,7 @@ public class Controller {
 
     @GetMapping(value = {"/checkIBAN"},produces = "application/json")
     public ResponseEntity checkIBAN(Model model) {
-
-        IbanValidation ibanValidation = new IbanValidation();
-        ibanValidation.setIBAN(checkIBANService.getIBAN());
-        return new ResponseEntity(ibanValidation, HttpStatus.OK);
+        return new ResponseEntity(checkIBANService.getIBAN(), HttpStatus.OK);
     }
 
 }
