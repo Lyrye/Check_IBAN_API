@@ -6,7 +6,7 @@ plugins {
     id 'org.springframework.experimental.aot' version '0.11.1'
 }
 
-group = 'org.imt.neureurope.j2ee.nickler'
+group = 'org.imt.nordeurope.j2ee.nickler'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
 

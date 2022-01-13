@@ -1,4 +1,4 @@
-package org.imt.neureurope.j2ee.nickler.check_iban_api.Model;
+package org.imt.nordeurope.j2ee.nickler.check_iban_api.Model;
 
 import org.iban4j.IbanUtil;
 import org.springframework.http.HttpStatus;

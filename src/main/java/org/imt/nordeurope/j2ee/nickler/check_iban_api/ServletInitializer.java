@@ -1,4 +1,4 @@
-package org.imt.neureurope.j2ee.nickler.check_iban_api;
+package org.imt.nordeurope.j2ee.nickler.check_iban_api;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
